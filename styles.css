@@ -1,0 +1,39 @@
+.box{
+    border: 1px red solid;
+}
+
+.container{
+    border: 1px green solid;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.red, .yellow, .blue{
+        height: 200px;
+        width: 200px;
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+}
+.red{
+    background-color: red;
+    order:2;
+
+
+}
+.yellow{
+    background-color: yellow;
+    order: 1;
+}
+    
+.blue{
+    background-color: blue;
+    align-self:flex-end;
+    order: 3;
+
+}
