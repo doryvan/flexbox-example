@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-.red, .yellow, .blue{
+.red, .yellow, .blue, .aqua, .green{
         height: 200px;
         width: 200px;
         display: flex; 
@@ -35,5 +35,19 @@
     background-color: blue;
     align-self:flex-end;
     order: 3;
+}
+.aqua{
+    background-color: aqua;
+    align-self: baseline;
+    order:-1;
+
+}
+.green{
+    background-color: green;
+    align-self: first baseline;
+    order:4;
+    
+}
+
 
 }
